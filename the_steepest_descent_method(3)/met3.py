@@ -39,7 +39,7 @@ def step_desc_met3(A3, b3, eps3, x03):
 
     end_time = time.time()
     delta_time = end_time - start_time
-    return [x, delta_time, delta_r]
+    return x, delta_time, delta_r
 
 
 def random_system(dim):
