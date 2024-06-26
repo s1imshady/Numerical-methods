@@ -46,4 +46,4 @@ def method2(A, b, eps, x0 = None):
     end_time = time.time()
     solution_time = end_time - start_time
     
-    return [x, solution_time, error]
+    return x, solution_time, error
